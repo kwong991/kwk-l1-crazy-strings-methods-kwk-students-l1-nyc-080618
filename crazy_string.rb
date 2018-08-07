@@ -2,5 +2,5 @@
 
 def crazy_strings(food,drink)
 puts "My favorite food is #{food}.".reverse.upcase
-puts "I love to drink #{drink}".swapcase
+puts "I love to drink #{drink}".swapcase.gsub ""
 end
